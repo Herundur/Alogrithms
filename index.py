@@ -1,7 +1,10 @@
 import firstVariant
+import secondVariant
 
-array = [1, -2, 7, -4, 4, 2, -3, 6, 2]
+array = [1, -2, 3, -4, 4, 2, -3, 6, 2]
 
-maxSum = firstVariant.maxSum(array)
+maxSumFirstVariant = firstVariant.maxSumFirstVariant(array)
+maxSumSecondVariant = secondVariant.maxSumSecondVariant(array)
 
-print(maxSum)
+print(maxSumFirstVariant)
+print(maxSumSecondVariant)

@@ -1,4 +1,4 @@
-def maxSum(inputArray):
+def maxSumFirstVariant(inputArray):
     left = 0
     right = 0
     maxSum = float('-inf')
