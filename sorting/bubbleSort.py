@@ -15,6 +15,3 @@ def bubbleSort(array):
             i += 1
         changes = currentChanges
     return array
-
-
-#
