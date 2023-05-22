@@ -21,11 +21,13 @@ from maxSum.secondVariant import maxSumSecondVariant
 
 from sorting.bubbleSort import bubbleSort
 from sorting.selectionSort import selectionSort
+from sorting.mergeSort import mergeSort
 
 print("Unsorted Array: ",array)
 
-#bubbleSort.bubbleSort(array)
-selectionSort(array)
+#bubbleSort(array)
+#selectionSort(array)
+mergeSort(array)
 
 print("Sorted Array: ",array)
 
@@ -34,4 +36,4 @@ print("Sorted Array: ",array)
 #
 
 from search.binarySearch import binarySearch
-print(binarySearch(array, 6))
+#print(binarySearch(array, 6))
