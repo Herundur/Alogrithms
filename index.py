@@ -1,6 +1,7 @@
-array = [1, -2, 3, -4, 4, 2, -3, 6, 2]
+#array = [1, -2, 3, -4, 4, 2, -3, 6, 2]
 #array = [1, 0, 4, 2, 5, 6, 1, 12]
-
+array = [ 0, 1, 1, 2, 3, 5, 8, 13, 21,
+    34, 55, 89, 144, 233, 377, 610 ]
 #
 # MAXMUM SUM ALGORITHMS
 #
@@ -36,4 +37,7 @@ print("Sorted Array: ",array)
 #
 
 from search.binarySearch import binarySearch
+from search.jumpSearch import jumpSearch
+
 #print(binarySearch(array, 6))
+print(jumpSearch(array, 55))
